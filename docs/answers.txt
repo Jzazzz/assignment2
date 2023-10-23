@@ -1,0 +1,35 @@
+Q1. Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 456 bytes | 456.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Jzazz/assignment2.git
+   52c810d..45530f7  master -> master
+
+Q2. 9 total commits and command to check that is : git rev-list --count HEAD
+
+Q3. Command to check when was the README.md file modified is: git log -1 README.md
+
+Q4. Uses of branches:
+a. Branches are used to test new features without effecting the main codebase
+b. Branches can also be used to collaborate with other developers and work remotely together.
+
+Q5. Git log shows the history of commits made to a repository while git status shows the current state of the working directory and the staging area.
+
+Q6. git log --grep "Vehicle.h"
+
+Q7. git log --grep "file"
+
+Q8.
+a. Inheritance: Inheritance means inheriting the properties of your parent. In context of OOP it means to inherit the properties and behaviors of a parent class.
+
+
+b. Polymorphism: Polymorphism means many shapes. It allows us to write code that can work with different types of objects without having to know the specific type of object at compile time
+
+c. Encapsulation: It describes the idea of restricting access to methods and attributes in a class. This will hide the complex details from the users, and prevent data being modified by accident
+
+Q9: In the "Dictator and Lieutenants" workflow, there is a single person "the dictator" who is responsible for merging all changes into the main codebase. In the "Integration manager" workflow, there is a team of integration managers who are responsible for merging changes into the main codebase.
+
+Q10: As in the "Dictator and Lieutenants" workflow, there is a single person "the dictator" who is responsible for merging all changes into the main codebase so there will be much less merge conflicts.
